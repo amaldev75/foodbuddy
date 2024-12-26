@@ -1,0 +1,140 @@
+.mainContainer {
+  padding: 20px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0078d4;
+  padding: 10px 20px;
+  color: white;
+}
+
+.navbar span{
+  display: flex;
+  flex-direction: row;
+}
+
+.title {
+  font-size: 24px;
+}
+
+.searchContainer {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.searchBar {
+  padding: 8px;
+  width: 200px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.searchButton {
+  padding: 8px 12px;
+  background-color: white;
+  color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.searchButton:hover {
+  background-color: #0056b3;
+}
+
+
+.logoutButton {
+  background-color: #f44336;
+  max-width: 100px;
+  margin-right: 10px;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.cardContainer {
+  margin-top: 20px;
+}
+
+.cardsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.detailsButton {
+  margin-top: 10px;
+  background-color: #0078d4;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.Button {
+  margin-top: 10px;
+  width: 100px;
+  background-color: white;
+  color: #0078d4;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-right: 20px;
+  margin-left: 10px;
+  transition: background-color 0.3s ease;
+}
+/* .Button:hover {
+  background-color: white;
+  color: #0078d4;
+} */
+
+
+
+/* Footer */
+/* .footer {
+  background-color: #343a40;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.footerContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footerLinks {
+  display: flex;
+  gap: 16px;
+}
+
+.footerLink {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.footerLink:hover {
+  text-decoration: underline;
+} */
